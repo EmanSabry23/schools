@@ -217,7 +217,7 @@ body
     height: 400px !important;
 }
 .holderHeader .headerOwl .item .cont h2{
-    color: var(--mainColor2);
+    color: #fff;
     font-size: 45px;
     margin-top: 50px;
     text-shadow: 0px 0px 21px var(--mainColorAdd);
