@@ -93,7 +93,7 @@ body
     color: #999
 }
 .holderHeader .topHeader .dropbtn {background-color: transparent;color: white;border: none;}
-.holderHeader .topHeader .dropbtn .fa-user-circle{font-size: 34px;}
+.holderHeader .topHeader .dropbtn .fa-user-circle{font-size: 27px;}
 .holderHeader .topHeader .dropdown {position: relative;display: inline-block;}
 .holderHeader .topHeader .dropdown-content {
     display: none;
