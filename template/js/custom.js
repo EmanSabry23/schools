@@ -6,7 +6,7 @@ $(function(){
         rtl:true,
         autoplaySpeed: 500,
         animateOut:'fadeOut',
-        // autoplay:true,
+        autoplay:true,
         loop:true,
         margin:0,
         nav:true,

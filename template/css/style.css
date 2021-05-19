@@ -110,7 +110,8 @@ body
     color: var(--mainColor);
     padding: 5px 0px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 6px;
     text-decoration: none;
     display: block;
     background-color: var(--mainColor2);
@@ -186,7 +187,7 @@ body
     padding: 5px 0px;
     text-align: right;
     margin: 10px;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     padding-right: 10px;
     display: block;
@@ -325,20 +326,21 @@ body
     display: block;
     min-height: 220px;
     border-radius: 16px;
-    padding: 30px;
+    padding: 10px;
 }
 .boxs-option .box-pro .overlay h3{
     color: #fff;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 70px;
 }
 .boxs-option .box-pro .overlay i{
     text-align: center;
     display: block;
-    font-size: 60px;
+    font-size: 75px;
     color: #fff;
-    margin-top: 21px;
+    margin-top: 60px;
 }
 /* End Button Store */
 
@@ -591,6 +593,7 @@ body
 .article-solar .child-art p{
     font-size: 17px;
     color: #777;
+    margin-top: 30px;
 }
 .article-solar .art-more{
     position: absolute;
@@ -696,3 +699,151 @@ body
     color: #555;
 }
 /* End Footer */
+
+/* Start Sign In */
+.register .parent {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #eee;
+    margin: 40px 0;
+    border-radius: 35px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.register .parent::before{
+    content: url(../images/circles.svg);
+    position: absolute;
+    bottom: -324px;
+    left: -41px;
+    transform: rotate(11deg);
+    width: 100%;
+    height: 100%;
+}
+.register .parent::after{
+    content: url(../images/circles.svg);
+    position: absolute;
+    bottom: 60%;
+    left: -84px;
+    transform: rotate(171deg);
+    width: 100%;
+    height: 100%;
+}
+.register .parent h3{
+    text-align: center;
+    color: var(--mainColor2);
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+.register .parent form p{
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.register .parent form .piece {
+    position: relative;
+    margin-bottom: 13px;
+}
+.register .parent .piece img{
+    width: 30px;
+    position: absolute;
+    top: 9px;
+    opacity: .6;
+    right: 18px;
+}
+.register .parent .piece input{
+    padding-right: 60px;
+    font-size: 15px;
+    border-radius: 25px;
+    height: 48px;
+    box-shadow: 0px 0px 4px 0px #1542aa24;
+}
+.register .parent .piece input[type=checkbox]{
+    height: unset;
+}
+.register .parent .piece label{
+    font-size: 16px;
+}
+.register .parent .other{text-align: center;margin-bottom: 30px;}
+.register .parent .other h3{
+    font-size: 18px;
+    color: var(--mainColor2);
+    margin-bottom: 24px;
+}
+.register .parent .other a{
+    padding-top: 5px;
+    font-size: 16px;
+    background-color: var(--mainColor2);
+    color: #fff;
+    border-radius: 25px;
+    margin: 0px 10px;
+    width: 150px;
+    height: 38px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+.register .parent .other a.active{
+    background-color: var(--mainColor);
+}
+.register .parent .other a:hover{
+    background-color: #fff;
+    border: 1px solid var(--mainColor2);
+    color: var(--mainColor);
+}
+.register .parent .other a i{
+    margin-left: 8px;
+}
+.register .parent form button{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+.register #signIn button{
+    width: 180px;
+    font-size: 15px;
+}
+.register .parent form button:hover{
+    background-color: var(--mainColor);
+    color: #fff;
+    border: 1px solid transparent;
+}
+.register .parent form button i{
+    margin-left: 7px;
+}
+.register .parent form h5{
+    text-align: center;
+    font-size: 16px;
+    color: var(--mainColor);
+}
+.register .parent form a.si{
+    color: var(--mainColor2);
+    font-size: 16px;
+    margin-right: 4px;
+}
+.register .parent #signIn a.si{
+    color: var(--mainColor);
+}
+.register .parent .mass {
+    margin-top: 40%;
+    text-align: center;
+}
+.register .parent .mass h4{
+    color: var(--mainColor2);
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.register .parent .mass p{
+    color: #777;
+    font-size: 16px;
+}
+/* End Sign In */
