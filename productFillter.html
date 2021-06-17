@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <title>UI </title>
+    <link rel="icon" href="">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="template/fontawesome-free-5.13.1-web/css/all.min.css"> <!--library font-awesome-5-->
+    <link rel="stylesheet" href="template/css/animate.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="template/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="template/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="template/css/style.css">
+</head>
+<body>
+
+
+    <!-- Start Nav Mobile -->
+    <div class="nav-mobile">
+      <div class="row">
+          <div class="col-md-6 col-6">
+              <div class="logo">
+                  <a href="index.html">
+                      <img class="img-responsive" src="template/images/logo(elshenawy).png" alt="">
+                  </a>
+              </div>
+          </div>
+          <div class="col-md-6 col-6">
+              <div class="parent">
+                  <div class="row">
+                      <div class="col-md-3 col-3">
+                          <a class="search" href="#search">
+                              <button id="searchbar"><i class="fas fa-search"></i></button>
+                          </a>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <div class="lang">
+                              <a href="">EN</a>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <div class="navbar">
+                              <div class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-user-circle"></i>
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="signin.html"><i class="fas fa-user-alt"></i> تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="signup.html"><i class="fas fa-user-alt"></i> تسجيل حساب جديد</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <span class="linkn">
+                              <i class="buttonn fas fa-bars fa-lg"></i>
+                          </span>
+                      </div>
+                  </div>
+                  <div id="search" class="">
+                      <button type="button" class="close">×</button>
+                      <form>
+                        <input type="search" value="" placeholder="اكتــب كلمات البــحث هنا">
+                        <button type="submit" class="btn btn-primary">بحث</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Nav Mobile -->
+
+    <!-- Start Side Nav -->
+    <div class="sidenav">
+        <div class="closenav">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-responsive" src="template/images/logo(elshenawy).png" alt="">
+            </a>
+        </div>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="side-link">
+            <div class="button-tab">
+                <a href="" class="active" data-tab="content-link-1">لينك 1</a>
+                <a href="" data-tab="content-link-2">لينك 2</a>
+            </div>
+            <div class="content-link-1 bind">
+                <a href=""><i class="fas fa-toolbox"></i> المعلمين </a>
+                <a href=""><i class="fas fa-toolbox"></i> اولياء الأمور</a>
+                <a href=""><i class="fas fa-toolbox"></i>  بنك المعلومات</a>
+                <a href=""><i class="fas fa-toolbox"></i> لوحة الشرف</a> 
+            </div>
+            <div class="content-link-2 bind">
+                <ul class="navbar list-unstyled">
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-store"></i> المراحل الدراسية
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <h4>مرحلة رياض الأطفال </h4> 
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> KG1</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> KG2</a>
+
+                                <h4>المراحل الابتدائية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الرابع الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الخامس الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف السادس الابتدائي</a>
+
+                                <h4>المراحل الأعدادية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الأعدادي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الأعدادي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الأعدادي</a>
+
+                                <h4>المراحل الثانوية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الثانوي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الثانوي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الثانوي</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-reader"></i> دفتر الواجبات
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> المحاضرات
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضرة مباشرة الان </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره سابقه </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره قادمة </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> الساحات التعليمية
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 1</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 2 </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 3 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> سوق الطلبة
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i> ادوات مدرسية</a>
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  ازياء مدرسية </a>
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  كتب الكترونية </a>
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a> -->
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  سوق تكنولوجي </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i>  نادي الطلبة
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="studentCinema.html"><i class="fas fa-long-arrow-alt-left"></i> سينما الطالب</a>
+                                <a class="dropdown-item" href="games.html"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a>
+                                <a class="dropdown-item" href="trips.html"><i class="fas fa-long-arrow-alt-left"></i>  رحلات</a>
+                                <a class="dropdown-item" href="page.html"><i class="fas fa-long-arrow-alt-left"></i>  مسابقات </a>
+                                <a class="dropdown-item" href="sportTeam.html"><i class="fas fa-long-arrow-alt-left"></i>   الفرق الرياضية </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i>   كافية الطلبة </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <i class="fab fa-sketch"></i> بنك المعلومات
+                    </li> -->
+                </ul>  
+            </div>
+        </div>
+        
+    </div>
+    <!-- End Side Nav -->
+
+
+    <!-- Start Header -->
+    <div class="holderHeader">
+      <div class="topHeader">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="linksHeader">
+                          <a href="">المعلمين</a>
+                          <a href=""> اولياء الأمور</a>
+                          <a href="">  بنك المعلومات</a>
+                          <a href=""> لوحة الشرف</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <form class="form-inline">
+                          <input class="form-control" type="search" placeholder="بحث" aria-label="Search">
+                          <button class="button" type="submit"><i class="fas fa-search"></i></button>
+                      </form>
+                      <div class="dropdown">
+                          <button class="dropbtn">
+                              <i class="fas fa-user-circle"></i>
+                              <i class="fas fa-sort-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="signin.html"><i class="fas fa-user-alt"></i> تسجيل الدخول</a>
+                              <a href="signup.html"><i class="fas fa-user-alt"></i> تسجيل حساب جديد</a>
+                          </div>
+                      </div>
+                      <div class="lang">
+                          <a href="">EN</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="centerHeader">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="logo">
+                          <a href="index.html"><img src="template/images/23.png" alt=""></a>
+                      </div>
+                  </div>
+                  <div class="col-md-9">
+                      <div class="link_li">
+                          <ul class="list-unstyled">
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-store"></i> المراحل الدراسية
+                                      </button>
+                                      <div class="dropdown-content">
+                                      <h3><i class="fas fa-store"></i> المراحل الدراسية</h3> 
+                                      <div class="row">
+                                          <div class="col-md-3">
+                                              <div class="right">
+                                                  <h4>مرحلة رياض الأطفال </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i>KG1</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> KG2</a>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الابتدائية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الرابع الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الخامس الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف السادس الابتدائي</a>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الأعدادية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الأعدادي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الأعدادي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الأعدادي</a>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الثانوية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الثانوي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الثانوي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الثانوي</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <i class="fas fa-book-reader"></i> دفتر الواجبات
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> المحاضرات
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                      <h3><i class="fas fa-sign"></i> المحاضرات</h3>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضرة مباشرة الان </a>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره سابقه </a>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره قادمة </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> الساحات التعليمية
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                      <h3><i class="fas fa-sign"></i> الساحات التعليمية</h3>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 1</a>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 2 </a>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 3 </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> سوق الطلبة
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                      <h3><i class="fas fa-sign"></i> سوق الطلبة</h3>
+                                      <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i> ادوات مدرسية</a>
+                                      <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  ازياء مدرسية </a>
+                                      <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  كتب الكترونية </a>
+                                      <!-- <a href="#"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a> -->
+                                      <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  سوق تكنولوجي </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i>  نادي الطلبة
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                      <h3><i class="fas fa-sign"></i> نادي الطلبة</h3>
+                                      <a href="studentCinema.html"><i class="fas fa-long-arrow-alt-left"></i> سينما الطالب</a>
+                                      <a href="games.html"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a>
+                                      <a href="trips.html"><i class="fas fa-long-arrow-alt-left"></i>  رحلات</a>
+                                      <a href="page.html"><i class="fas fa-long-arrow-alt-left"></i>  مسابقات </a>
+                                      <a href="sportTeam.html"><i class="fas fa-long-arrow-alt-left"></i>   الفرق الرياضية </a>
+                                      <a href="#"><i class="fas fa-long-arrow-alt-left"></i>   كافية الطلبة </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <!-- <li>
+                                  <i class="fab fa-sketch"></i> بنك المعلومات
+                              </li> -->
+                          </ul>  
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start filter-pro -->
+    <div class="filter-pro">
+      <div class="container">
+        <div class="row">
+          <aside class="col-md-3">
+            <div class="card">
+              <!-- filter-group -->
+              <article class="filter-group">
+                <header class="card-header">
+                  <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6>نوع المنتج</h6>
+                  </a>
+                </header>
+                <div class="filter-content collapse show" id="collapse_1">
+                  <div class="card-body">
+                    <form class="pb-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="بحث">
+                      <div class="input-group-append">
+                        <button class="btn search" type="button"><i class="fa fa-search"></i></button>
+                      </div>
+                    </div>
+                    </form>
+                    <div class="list-menu">
+                      <a href="#" >أشخاص  </a>
+                      <a href="#">ساعــات </a>
+                      <a href="#">سينمـــا  </a>
+                      <a href="#">ملابس  </a>
+                      <a href="#">عناصر المنزل</a>
+                      <a href="#">حيوانات</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="filter-group">
+                <header class="card-header">
+                  <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6>ماركات </h6>
+                  </a>
+                </header>
+                <div class="filter-content collapse show" id="collapse_2">
+                  <div class="card-body">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Test 1 
+                        <b class="badge badge-pill badge-light float-right">120</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Test 2 
+                        <b class="badge badge-pill badge-light float-right">15</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Test 3 
+                        <b class="badge badge-pill badge-light float-right">35</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Test 4 
+                        <b class="badge badge-pill badge-light float-right">89</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">Test 5 
+                        <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                    </label>
+              </div> <!-- card-body.// -->
+                </div>
+              </article> 
+              <article class="filter-group">
+                <header class="card-header">
+                  <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6>نطاق السعر </h6>
+                  </a>
+                </header>
+                <div class="filter-content collapse show" id="collapse_3">
+                  <div class="card-body">
+                    <input type="range" class="custom-range" min="0" max="100" name="">
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Min</label>
+                      <input class="form-control" placeholder="$0" type="number">
+                    </div>
+                    <div class="form-group text-right col-md-6">
+                      <label>Max</label>
+                      <input class="form-control" placeholder="$1,0000" type="number">
+                    </div>
+                    </div> <!-- form-row.// -->
+                    <button class="btn btn-block btn-primary apply">تطبيق</button>
+                  </div><!-- card-body.// -->
+                </div>
+              </article>
+              <article class="filter-group">
+                <header class="card-header">
+                  <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6>المقاس </h6>
+                  </a>
+                </header>
+                <div class="filter-content collapse show" id="collapse_4">
+                  <div class="card-body">
+                    <label class="checkbox-btn">
+                      <input type="checkbox">
+                      <span class="btn btn-light"> XS </span>
+                    </label>
+            
+                    <label class="checkbox-btn">
+                      <input type="checkbox">
+                      <span class="btn btn-light"> SM </span>
+                    </label>
+            
+                    <label class="checkbox-btn">
+                      <input type="checkbox">
+                      <span class="btn btn-light"> LG </span>
+                    </label>
+            
+                    <label class="checkbox-btn">
+                      <input type="checkbox">
+                      <span class="btn btn-light"> XXL </span>
+                    </label>
+                </div><!-- card-body.// -->
+                </div>
+              </article>
+              <article class="filter-group">
+                <header class="card-header">
+                  <a href="#" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6>تصنيفات أخري</h6>
+                  </a>
+                </header>
+                <div class="filter-content collapse in" id="collapse_5">
+                  <div class="card-body">
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Any condition</div>
+                    </label>
+            
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Brand new </div>
+                    </label>
+            
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Used items</div>
+                    </label>
+            
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Very old</div>
+                    </label>
+                  </div><!-- card-body.// -->
+                </div>
+              </article> 
+            </div> 
+          </aside>
+
+          <main class="col-md-9">
+            <header class="border-bottom mb-4 pb-3">
+                <div class="form-inline">
+                  <div class="row">
+                    <div class="col-md-6 col-6">
+                      <div class="item-fo">
+                        
+                        <select class="mr-2 form-control">
+                          <option>أحدث العناصر</option>
+                          <option>الشائع</option>
+                          <option>الأكثر شهرة</option>
+                          <option>أرخص</option>
+                        </select>
+                        <span class="mr-md-auto">32 سلعة متوفرة </span>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                      <div class="btn-group tool">
+                        <a href="#" class="btn btn-outline-secondary" data-toggle="tooltip" title="" data-original-title="List view"> 
+                          <i class="fa fa-bars"></i></a>
+                        <a href="#" class="btn  btn-outline-secondary active" data-toggle="tooltip" title="" data-original-title="Grid view"> 
+                          <i class="fa fa-th"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </header>
+            <div class="row">
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <span class="new"> جديد </span>
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href="detailsProduct.html"><img src="template/images/product1.png"></a>                                                                                                                                                                                                                                                                                              
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->
+            
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href="detailsProduct.html"><img src="template/images/product2.png"></a>
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->
+            
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href="detailsProduct.html"><img src="template/images/product3.png"></a>
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->           
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <span class="new"> جديد </span>
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href=""><img src="template/images/product1.png"></a>
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->
+            
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href=""><img src="template/images/product2.png"></a>
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->
+            
+              <div class="col-md-4">
+                <figure class="card-product-grid">
+                  <div class="img-wrap"> 
+                    <button class="fav"><i class="far fa-heart"></i></button>
+                    <a href=""><img src="template/images/product3.png"></a>
+                  </div> <!-- img-wrap.// -->
+                  <figcaption class="info-wrap">
+                    <div class="fix-height">
+                      <h3>تي شيرت</h3>
+                      <div class="price-wrap mt-2">
+                        <span class="price">$280</span>
+                        <del class="price-old">$980</del>
+                      </div> <!-- price-wrap.// -->
+                    </div>
+                    <ul class="clickRate list-unstyled">
+                      <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li class=""><i class="fas fa-star"></i></li>
+                      <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+                  </figcaption>
+                </figure>
+              </div> <!-- col.// -->           
+            </div>          
+            <nav class="mt-4" aria-label="Page navigation sample">
+              <ul class="pagination">
+                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- End filter-pro -->
+
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+          <div class="content">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="template/images/logo(elshenawy).png" alt="">
+                      <ul class="list-unstyled">
+                          <li>
+                              <i class="fas fa-mobile-alt"></i>
+                              <span>0101010109</span>
+                          </li>
+                          <li>
+                              <i class="fas fa-mobile-alt"></i>
+                              <span>012345567889</span>
+                          </li>
+                          <li>
+                              <h5>للاقتراحات والدعم الفني راسلونا على :</h5>
+                              <i class="far fa-envelope"></i>
+                              <span>Example@gmail.com</span>
+                          </li>
+                          <li>
+                              <h5>للإعلان لدينا ارسلوا طلباتكم علي:</h5>
+                              <i class="far fa-envelope"></i>
+                              <span>Example@gmail.com</span>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="link-so">
+                          <h4>روابط مفيدة</h4>
+                          <a href="">تسجيل الدخول</a>
+                          <a href="">انشاء حساب</a>
+                          <a href="">اتصل بنا</a>
+                          <a href="">الشروط و الأحكام</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.33564043608!2d31.293483902914023!3d30.059558098559762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1614718995590!5m2!1sar!2seg" width="100%" height="300px" style="border:0;border-radius: 20px;margin-top: 30px;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+              </div>
+              <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-yahoo"></i></a>
+              </div>
+              <p>© 2021 |جميع الحقوق محفوظة </p>
+          </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+ 
+
+
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+    <script src="template/js/bootstrap.min.js"></script>
+    <script src="template/js/wow.min.js"></script>
+    <script src="template/js/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script src="template/js/jquery.waypoints.min.js"></script>
+    <script src="template/js/jquery.counterup.min.js"></script>
+    <script src="template/js/owl.carousel.min.js"></script>
+    <script src="template/js/custom.js"></script>
+    <script>
+        $('#myCarousel').carousel({
+            interval : 2000
+        });
+        new WOW().init();
+        
+    </script>
+
+
+
+</body></html>

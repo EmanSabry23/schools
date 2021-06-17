@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <title>UI </title>
+    <link rel="icon" href="">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="template/fontawesome-free-5.13.1-web/css/all.min.css"> <!--library font-awesome-5-->
+    <link rel="stylesheet" href="template/css/animate.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="template/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="template/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="template/css/style.css">
+    <style>
+      body{
+        position: relative;
+        background-color: unset;
+      }
+      /* body::after{
+        content: url(template/images/services1.png);
+        position: fixed;
+        top: 50%;
+        right: -58px;
+        opacity: .1;
+      } */
+    </style>
+</head>
+<body>
+
+    <!-- Start Nav Mobile -->
+    <div class="nav-mobile">
+      <div class="row">
+          <div class="col-md-6 col-6">
+              <div class="logo">
+                  <a href="index.html">
+                      <img class="img-responsive" src="template/images/logo(elshenawy).png" alt="">
+                  </a>
+              </div>
+          </div>
+          <div class="col-md-6 col-6">
+              <div class="parent">
+                  <div class="row">
+                      <div class="col-md-3 col-3">
+                          <a class="search" href="#search">
+                              <button id="searchbar"><i class="fas fa-search"></i></button>
+                          </a>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <div class="lang">
+                              <a href="">EN</a>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <div class="navbar">
+                              <div class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-user-circle"></i>
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="signin.html"><i class="fas fa-user-alt"></i> تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="signup.html"><i class="fas fa-user-alt"></i> تسجيل حساب جديد</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-3">
+                          <span class="linkn">
+                              <i class="buttonn fas fa-bars fa-lg"></i>
+                          </span>
+                      </div>
+                  </div>
+                  <div id="search" class="">
+                      <button type="button" class="close">×</button>
+                      <form>
+                        <input type="search" value="" placeholder="اكتــب كلمات البــحث هنا">
+                        <button type="submit" class="btn btn-primary">بحث</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Nav Mobile -->
+
+    <!-- Start Side Nav -->
+    <div class="sidenav">
+        <div class="closenav">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-responsive" src="template/images/logo(elshenawy).png" alt="">
+            </a>
+        </div>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="side-link">
+            <div class="button-tab">
+                <a href="" class="active" data-tab="content-link-1">لينك 1</a>
+                <a href="" data-tab="content-link-2">لينك 2</a>
+            </div>
+            <div class="content-link-1 bind">
+                <a href=""><i class="fas fa-toolbox"></i> المعلمين </a>
+                <a href=""><i class="fas fa-toolbox"></i> اولياء الأمور</a>
+                <a href=""><i class="fas fa-toolbox"></i>  بنك المعلومات</a>
+                <a href=""><i class="fas fa-toolbox"></i> لوحة الشرف</a> 
+            </div>
+            <div class="content-link-2 bind">
+                <ul class="navbar list-unstyled">
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-store"></i> المراحل الدراسية
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <h4>مرحلة رياض الأطفال </h4> 
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> KG1</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> KG2</a>
+
+                                <h4>المراحل الابتدائية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الرابع الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الخامس الابتدائي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف السادس الابتدائي</a>
+
+                                <h4>المراحل الأعدادية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الأعدادي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الأعدادي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الأعدادي</a>
+
+                                <h4>المراحل الثانوية </h4>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الثانوي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الثانوي</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الثانوي</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-reader"></i> دفتر الواجبات
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> المحاضرات
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضرة مباشرة الان </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره سابقه </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره قادمة </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> الساحات التعليمية
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 1</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 2 </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 3 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i> سوق الطلبة
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i> ادوات مدرسية</a>
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  ازياء مدرسية </a>
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  كتب الكترونية </a>
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a> -->
+                                <a class="dropdown-item" href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  سوق تكنولوجي </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sign"></i>  نادي الطلبة
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="studentCinema.html"><i class="fas fa-long-arrow-alt-left"></i> سينما الطالب</a>
+                                <a class="dropdown-item" href="games.html"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a>
+                                <a class="dropdown-item" href="trips.html"><i class="fas fa-long-arrow-alt-left"></i>  رحلات</a>
+                                <a class="dropdown-item" href="page.html"><i class="fas fa-long-arrow-alt-left"></i>  مسابقات </a>
+                                <a class="dropdown-item" href="sportTeam.html"><i class="fas fa-long-arrow-alt-left"></i>   الفرق الرياضية </a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-long-arrow-alt-left"></i>   كافية الطلبة </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <i class="fab fa-sketch"></i> بنك المعلومات
+                    </li> -->
+                </ul>  
+            </div>
+        </div>
+        
+    </div>
+    <!-- End Side Nav -->
+
+    <!-- Start Header -->
+    <div class="holderHeader">
+      <div class="topHeader">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="linksHeader">
+                          <a href="">المعلمين</a>
+                          <a href=""> اولياء الأمور</a>
+                          <a href="">  بنك المعلومات</a>
+                          <a href=""> لوحة الشرف</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <form class="form-inline">
+                          <input class="form-control" type="search" placeholder="بحث" aria-label="Search">
+                          <button class="button" type="submit"><i class="fas fa-search"></i></button>
+                      </form>
+                      <div class="dropdown">
+                          <button class="dropbtn">
+                              <i class="fas fa-user-circle"></i>
+                              <i class="fas fa-sort-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="signin.html"><i class="fas fa-user-alt"></i> تسجيل الدخول</a>
+                              <a href="signup.html"><i class="fas fa-user-alt"></i> تسجيل حساب جديد</a>
+                          </div>
+                      </div>
+                      <div class="lang">
+                          <a href="">EN</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="centerHeader">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="logo">
+                          <a href="index.html"><img src="template/images/23.png" alt=""></a>
+                      </div>
+                  </div>
+                  <div class="col-md-9">
+                      <div class="link_li">
+                          <ul class="list-unstyled">
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-store"></i> المراحل الدراسية
+                                      </button>
+                                      <div class="dropdown-content">
+                                        <h3><i class="fas fa-store"></i> المراحل الدراسية</h3> 
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                              <div class="right">
+                                                  <h4>مرحلة رياض الأطفال </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i>KG1</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> KG2</a>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الابتدائية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الرابع الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الخامس الابتدائي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف السادس الابتدائي</a>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الأعدادية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الأعدادي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الأعدادي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الأعدادي</a>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3" style="border-right:1px solid #ccc">
+                                              <div class="left">
+                                                  <h4>المراحل الثانوية </h4>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الاول الثانوي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثاني الثانوي</a>
+                                                  <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الصف الثالث الثانوي</a>
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <i class="fas fa-book-reader"></i> دفتر الواجبات
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> المحاضرات
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                        <h3><i class="fas fa-sign"></i> المحاضرات</h3>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضرة مباشرة الان </a>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره سابقه </a>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> محاضره قادمة </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> الساحات التعليمية
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                        <h3><i class="fas fa-sign"></i> الساحات التعليمية</h3>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 1</a>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 2 </a>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i> الساحة 3 </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i> سوق الطلبة
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                        <h3><i class="fas fa-sign"></i> سوق الطلبة</h3>
+                                        <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i> ادوات مدرسية</a>
+                                        <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  ازياء مدرسية </a>
+                                        <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  كتب الكترونية </a>
+                                        <!-- <a href="#"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a> -->
+                                        <a href="Store.html"><i class="fas fa-long-arrow-alt-left"></i>  سوق تكنولوجي </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="dropdown">
+                                      <button class="dropbtn">
+                                          <i class="fas fa-sign"></i>  نادي الطلبة
+                                      </button>
+                                      <div class="dropdown-content no-wi">
+                                        <h3><i class="fas fa-sign"></i> نادي الطلبة</h3>
+                                        <a href="studentCinema.html"><i class="fas fa-long-arrow-alt-left"></i> سينما الطالب</a>
+                                        <a href="games.html"><i class="fas fa-long-arrow-alt-left"></i>  العاب </a>
+                                        <a href="trips.html"><i class="fas fa-long-arrow-alt-left"></i>  رحلات</a>
+                                        <a href="page.html"><i class="fas fa-long-arrow-alt-left"></i>  مسابقات </a>
+                                        <a href="sportTeam.html"><i class="fas fa-long-arrow-alt-left"></i>   الفرق الرياضية </a>
+                                        <a href="#"><i class="fas fa-long-arrow-alt-left"></i>   كافية الطلبة </a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <!-- <li>
+                                  <i class="fab fa-sketch"></i> بنك المعلومات
+                              </li> -->
+                          </ul>  
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start Details Product -->
+    <div class="parent-de">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="detail">
+              <h3>تيشرت قطن مريح سادة نص كوم قبه v سبعه -أبيض 4X</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="clickRate list-unstyled">
+                    <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <div class="price">
+                    <span>120 EGP</span>
+                    <del>150 EGP</del>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="number">
+                    <h4>الكمية :</h4>
+                    <span class="minus"><i class="fas fa-minus"></i></span>
+                    <input type="text" value="1">
+                    <span class="plus"><i class="fas fa-plus"></i></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="size">
+                    <h4> المقاس :</h4>
+                    <a href="">Sm</a>
+                    <a href="">L</a>
+                    <a href="">XL</a>
+                    <a href="">4XL</a>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-unstyled descrp">
+                <li><h4>الوصف :</h4></li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>هل المنتج للبالغين : لا</span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>نمط البلوزة / القميص : تي شيرتات </span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>نمط القبة : قبة V</span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>نوع القماش : قطن</span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>طول الكم : كم طويل </span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>مادة التركيب : 100% قطن</span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>المجموعة المستهدفة : رجال </span>
+                </li>
+                <li>
+                  <i class="fas fa-arrow-left"></i>
+                  <span>العلامة التجارية : ...</span>
+                </li>
+              </ul>
+              <a href="" class="add-cart"><i class="fab fa-opencart"></i> اضافه الي السلة</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="owl-imgs">
+              <div class="holder master-img">
+                <button class="fav"><i class="far fa-heart"></i></button>
+                <span class="new"> جديد </span>
+                <img class="img-responsive" src="template/images/product2.png">
+              </div>
+              <div class="thumbnails">
+                <img class="img-responsive" src="template/images/product1.png">
+                <img class="img-responsive" src="template/images/product3.png">
+                <img class="img-responsive" src="template/images/product2.png">
+                <img class="img-responsive" src="template/images/product3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <!-- End Details Product -->
+
+    <!-- Start Evaluation Product -->
+    <div class="evaluation">
+      <div class="container">
+        <h2>شاهد العملاء أيضًا</h2>
+        <div class="eva">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="text">
+                    <strong>5.0</strong>
+                    <ul class="list-unstyled star">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <h3> (3) تقييمات </h3>
+                </div>
+            </div> 
+            <div class="col-md-6">
+              <div class="text-eva">
+                  <h2>قم بتقييم المنتج :</h2>
+                  <ul class="clickRate list-unstyled">
+                    <li id="startFill" class="fillStar"><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                    <li id="endFill" class=""><i class="fas fa-star"></i></li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- End Evaluation Product -->
+
+    <!--Start Pepole Evaluation  -->
+    <div class="container">
+      <div class="pepole-eva">
+        <div class="row">
+          <div class="col-md-6 col-6">
+              <div class="eva-per">
+                  <h4><strong >بواسطة</strong> user-MTCH1K1  </h4>
+                  <ul class="list-unstyled star">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star-half-alt"></i></li>
+                  </ul>
+                  <p>جميلة ما شاء الله </p>
+                  <a href="" class="active">
+                    <i class="far fa-thumbs-up"></i>
+                    <b>مفيد ؟</b>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-thumbs-down"></i>
+                    <b>غير مفيد ؟</b>
+                  </a>
+              </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <span>2020-11-10</span>
+            <span>18:26:37</span> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Pepole Evaluation  -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+          <div class="content">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="template/images/logo(elshenawy).png" alt="">
+                      <ul class="list-unstyled">
+                          <li>
+                              <i class="fas fa-mobile-alt"></i>
+                              <span>0101010109</span>
+                          </li>
+                          <li>
+                              <i class="fas fa-mobile-alt"></i>
+                              <span>012345567889</span>
+                          </li>
+                          <li>
+                              <h5>للاقتراحات والدعم الفني راسلونا على :</h5>
+                              <i class="far fa-envelope"></i>
+                              <span>Example@gmail.com</span>
+                          </li>
+                          <li>
+                              <h5>للإعلان لدينا ارسلوا طلباتكم علي:</h5>
+                              <i class="far fa-envelope"></i>
+                              <span>Example@gmail.com</span>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="link-so">
+                          <h4>روابط مفيدة</h4>
+                          <a href="">تسجيل الدخول</a>
+                          <a href="">انشاء حساب</a>
+                          <a href="">اتصل بنا</a>
+                          <a href="">الشروط و الأحكام</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.33564043608!2d31.293483902914023!3d30.059558098559762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1614718995590!5m2!1sar!2seg" width="100%" height="300px" style="border:0;border-radius: 20px;margin-top: 30px;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+              </div>
+              <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-yahoo"></i></a>
+              </div>
+              <p>© 2021 |جميع الحقوق محفوظة </p>
+          </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+ 
+
+
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+    <script src="template/js/bootstrap.min.js"></script>
+    <script src="template/js/wow.min.js"></script>
+    <script src="template/js/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script src="template/js/jquery.waypoints.min.js"></script>
+    <script src="template/js/jquery.counterup.min.js"></script>
+    <script src="template/js/owl.carousel.min.js"></script>
+    <script src="template/js/custom.js"></script>
+    <script>
+        $('#myCarousel').carousel({
+            interval : 2000
+        });
+        new WOW().init();
+        
+    </script>
+
+
+
+</body></html>
